@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/works/works",
+    "pages/dynamic/dynamic"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Earth Union",
+    "navigationBarBackgroundColor": "#000000"
+  },
+  "tabBar":{
+    "color":"#2c2c2c",
+    "selectedColor": "#1296db",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text":"首页",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页点击后.png"
+      },{
+        "pagePath": "pages/dynamic/dynamic",
+        "text": "分类",
+        "iconPath": "images/分类.png",
+        "selectedIconPath": "images/分类点击后.png"
+      },{
+        "pagePath": "pages/works/works",
+        "text": "文章",
+        "iconPath": "images/文章.png",
+        "selectedIconPath": "images/文章点击后.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
